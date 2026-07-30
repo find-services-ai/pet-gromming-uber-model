@@ -1,0 +1,28 @@
+# AgentOS Content Engine — component manifest
+# This repository is a VERTICAL component: the on-demand pet grooming
+# marketplace model seeds pet-care and boarding content.
+# The engine hub (mcp-idea-publisher) mirrors this entry in channels.yaml.
+
+component_id: pet-services
+name: "Pet Services Vertical"
+repo: find-services-ai/pet-gromming-uber-model
+role: vertical
+description: >
+  Uber-style on-demand pet grooming marketplace model. The service vision and
+  pet-parent empathy angle seed content for the pet boarding page.
+seed_sources:
+  - README.md
+channels:
+  - channel_id: find.petboarding
+    handle: find.petboarding
+    platform: instagram
+    category: "Pet Supplies"
+    niche: "Pet boarding, grooming, and the humans who love their animals"
+    pillars:
+      - "Happy drop-off: easing the guilt of leaving a pet for the first time"
+      - "Groomer wisdom: one pro tip owners can do at home"
+      - "Pet parent story: a small moment every owner recognizes"
+      - "On-demand future: what Uber-style pet care changes for busy owners"
+    cadence_hours: 6
+    active: true
+license: MIT
